@@ -41,16 +41,16 @@ else
     logIt(LOG, 'image is grayscale')
 end
 
-%% 1: FIND PREDICTED ERROR
+%% 2: FIND PREDICTED ERROR
 [~, prediction_error] = predict_image(imgIn);
 x
-%% 2: TAKE WAVELET DECOMPOSITIONS
+%% 3: TAKE WAVELET DECOMPOSITIONS
 
 % wavelet decomposition of image
 
 % wavelet decomposition of predicted_error
 
-%% 3. HISTORGRAMS
+%% 4. HISTORGRAMS
 
 % histogram of image
 
@@ -58,4 +58,4 @@ x
 
 % histeogram of predicted_error
 
-%% 4. Fourier Transforms
+%% 5. Fourier Transforms
